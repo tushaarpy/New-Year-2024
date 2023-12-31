@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+.container{
+    height: 100vh;
+    background: #E55604;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 3px;
+}
+.text{
+    background-color: #040a24;
+    width: 100%;
+    padding: 90px 50px;
+}
+.image{
+    background-color: #050a24;
+    width: 100%;
+    padding: 20px 50px;
+}
+.text h1{
+    font-size: 4rem;
+    margin-bottom: 30px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+.text p{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 70px;
+    letter-spacing: 1px;
+    opacity: 90%;
+    font-weight: 400px;
+}
+
+.text a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: #E55604;
+    border: 1px solid #E55604;
+    font-weight: 600;
+}
+.text span{
+    color: #E55604;
+}
+.image h1{
+    color: whitesmoke;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.image span{
+    color: #E55604;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.image .seperator{
+    color: white;
+}
+
+
+@media only screen and (max-width: 600px)
+{
+    .text{
+        padding: 40px 25px;
+    }
+    .image{
+        padding: 10px 25px;
+    }
+    .text h1{
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: whitesmoke;
+        letter-spacing: 1px;
+    }
+    .text p{
+        font-size: .5rem;
+        color: white;
+        margin-bottom: 35px;
+        letter-spacing: 1px;
+        opacity: 90%;
+        font-weight: 400px;
+    }
+    .text a{
+        color: whitesmoke;
+        padding: 5px 7px;
+        border-radius: 4px;
+        background-color: #E55604;
+        border: 1px solid #c5effa;
+        font-weight: 400;
+        font-size: 1rem;
+    }
+    .image h1{
+        color: whitesmoke;
+        letter-spacing: 1px;
+        margin-bottom: 4px;
+        font-size: 1.5rem;
+    }
+    .image span{
+        color: #E55604;
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: .7rem;
+    }
+    .container{
+        gap: 1px;
+    }
+}
